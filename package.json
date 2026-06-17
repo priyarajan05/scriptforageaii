@@ -1,0 +1,22 @@
+{
+  "name": "scriptforge-ai",
+  "version": "1.0.0",
+  "description": "ScriptForge AI — Conversational AI Assistant with secure backend proxy",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "postinstall": "if not exist .env copy .env.example .env",
+    "build": "echo \"Build step placeholder - add front-end build command if needed\""
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "ffmpeg-static": "^5.2.0",
+    "ffprobe-static": "^3.1.0",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.33.5"
+  }
+}
